@@ -1,3 +1,6 @@
+End-to-End ML Pipeline with Model Comparison and Class-Level Analysis
+
+
 # Forest Cover Type Classification using Machine Learning
 
 ## Overview

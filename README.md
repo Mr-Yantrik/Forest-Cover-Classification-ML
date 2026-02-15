@@ -98,3 +98,20 @@ notebooks/forest_cover_classification.ipynb
 - Class imbalance handling using SMOTE
 - Feature engineering based on domain insights
 - Model deployment as API (Flask/FastAPI)
+
+
+
+---
+## Technical Insights
+
+- Ensemble tree-based models perform exceptionally well on structured, high-dimensional tabular datasets without extensive feature scaling.
+- RandomForest achieved higher overall accuracy due to its robustness and stability on large datasets.
+- XGBoost demonstrated improved sensitivity toward minority classes but requires careful hyperparameter tuning to outperform strong bagging baselines.
+- Class imbalance significantly impacts recall for underrepresented classes, highlighting the importance of evaluating macro-averaged metrics alongside overall accuracy.
+- Stratified train-test splitting ensures fair evaluation by preserving class distribution across training and testing sets.
+
+
+---
+## Reproducibility
+
+All experiments were conducted with fixed random_state values to ensure reproducibility of results.

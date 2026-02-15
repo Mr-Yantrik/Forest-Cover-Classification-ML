@@ -49,6 +49,11 @@ The objective is to build a robust multi-class classification model and compare 
 | XGBoost       | 0.8896   | ~0.87    | 0.64 (Class 5)        |
 
 ---
+## Confusion Matrix
+
+![Confusion Matrix](confusion_matrix.png)
+
+
 
 ## Key Observations
 - Random Forest achieved higher overall accuracy.
